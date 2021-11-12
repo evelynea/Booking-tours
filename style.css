@@ -1,0 +1,229 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.topnav{
+    width: 100%;
+    /* height: 60px; */
+    background: rgb(13, 153, 36);
+    padding: 10px 10px 10px 50px;
+    display: flex;
+    box-shadow: 0px 3px rgb(224, 107, 11);
+    
+}
+.logo{
+    width: 250px;
+    height: 100px;
+    background: whitesmoke;
+    text-align: center;
+
+}
+
+.navbar-right{
+    /* background:seashell; */
+    height: 45px;
+    width: 90%;
+    float: right;
+    overflow: hidden;
+    margin: 20px;
+    /* position: fixed; */
+    text-align: center;
+}
+
+.topnav a {
+    color: black ;
+    float: right;
+    font-size: small;
+    padding: 20px;
+    /* background: purple; */
+    text-decoration: none;
+    height: 100%;
+}
+
+.topnav a:hover{
+    /* text-decoration: overline; */
+    background: rgb(243, 238, 238);
+    background-size: 5px;
+}
+
+.image{
+    height: 100%; 
+    width: 100%;
+}
+.home-container{
+    padding: 30px;
+    width: 100%;
+    height: 80vh;
+    /* background-color:  rgb(105, 160, 123); */
+    z-index: -2;
+    
+    text-align: center;
+    /* background: url(./img/background.jpg);    
+    background-size: cover;
+    background-attachment: fixed; */
+   
+}
+.home-container h1{
+    padding: 10px;
+    font-size: 60px;
+    color: rgb(4, 26, 11);
+}
+body{
+    background: url(./img/background.jpg);    
+    background-size: cover;
+    background-attachment: fixed;
+}
+.quote-div{
+    background-color: rgb(199, 230, 209);
+    margin-top: 30px;
+    height: 50vh;
+    width: 35%;
+    float: right;
+    padding: 30px;
+    
+    margin: 30px;
+}
+
+button{
+    width: 40%;
+    height: 30px;
+    font-size: larger;
+    margin-top: 80px;
+    border-radius: 10px;
+    border-color: rgb(41, 75, 7);
+}
+
+.tour-section{
+    background-color: rgb(253, 251, 249);
+    height: 200vh;
+    width: 100%;
+}
+.book-sort-div{
+    display: flex;
+    padding: 30px;
+    
+}
+.book-cost{
+    width: 40%;
+    height: 70vh;
+    /* background-color: rgb(167, 196, 5); */
+    font-size: x-large;
+
+}
+select{
+    width: 400px;
+}
+.book-cost h1{
+    
+    color: chocolate;
+    margin-right: 20px;
+}
+.row1{
+    display: flex;
+}
+.row2{
+    margin-top: 10px;
+    display: flex;
+}
+.grid{
+    margin: 20px;
+    
+}
+.gorillas{
+    display: flex;
+}
+ /* for creating an acoount page */
+.signup-form{
+    width: 35%;
+    height: 60vh;
+    background-color: blanchedalmond;
+    margin: auto;
+    text-align: center;
+    padding: 30px ;
+    
+}
+
+.signup-form input{
+    padding: 10px;
+    /* margin-top: 10px; */
+    width: 60%;
+    float: right;
+    margin-top: 10px;
+    
+}
+.signup-form label{
+    padding: 10px;
+    margin-top: 10px;
+    width: 40%;
+    float: left;
+}
+/* login */
+.login-form{
+    width: 35%;
+    height: 40vh;
+    background-color: blanchedalmond;
+    margin: auto;
+    text-align: center;
+    padding: 30px ;
+    margin-top: 10px;
+}
+.login-form input{
+    padding: 10px;
+    /* margin-top: 10px; */
+    width: 60%;
+    float: right;
+    margin-top: 10px;
+    
+}
+.login-form label{
+    padding: 10px;
+    margin-top: 10px;
+    width: 40%;
+    float: left;
+}
+
+/* contact page */
+.contact-form{
+    width: 50%;
+    height: 60vh;
+    background-color: rgb(32, 132, 214);
+    margin: auto;
+    text-align: center;
+    padding: 30px ;
+    font-size: x-large;
+}
+.contact-form input{
+    margin-top: 10px;
+}
+/* about-us */
+.destination{
+    width: 55%;
+    height: 100vh;
+    background-color: rgb(28, 168, 59);
+    margin-left: 20px;
+    text-align: center;
+    padding: 30px ;
+    margin-top: 10px;   
+}
+.about-us{
+    display: flex;
+}
+.intro{
+    background-color: rgb(246, 252, 248);
+    margin-top: 30px;
+    height: 50vh;
+    width: 35%;
+    float: right;
+    padding: 30px;
+    
+    margin: 30px;
+}
+.about-us-container{
+    padding: 30px;
+    width: 100%;
+    height: 120vh;
+     background-color:  rgb(105, 160, 123); 
+    z-index: -2;
+    text-align: center;
+}
